@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #161616;
+}
+.bg-num1{
+    background-image: url(./photos/background-image-num1.svg);
+    height: 1080px;
+     background-repeat: no-repeat;
+}
+.container{
+    width: 1520px;
+    margin: 0 auto;
+}
+.header-li{
+    font-family: Onest;
+font-weight: 300;
+font-size: 16px;
+text-transform: capitalize;
+}
+.header-ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+     margin-top: 50px;
+}
+.header-btn{
+    background-color: #161616;
+    width: 164px;
+    height: 48px;
+    border-radius: 99px;
+    color: #D7D7D7;
+    font-size: 16px;
+    font-family: onest;
+    font-weight: 300;
+    font-family: Onest;
+text-transform: capitalize;
+border: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.main-p-section1{
+    font-family: Onest;
+font-weight: 300;
+font-style: Light;
+font-size: 20px;
+text-align: center;
+color: #D7D7D7;
+}
+.main-button-section1{
+    width: 140px;
+height: 50px;
+border-radius: 999px;
+border: none;
+font-family: Onest;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+color: #D7D7D7;
+background-color: #161616;
+}
+.main-btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-p-btn{
+    margin-top: 700px;
+}
+.section2-h1-about-us{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 18px;
+text-align: center;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.section2-h2{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 32px;
+text-align: center;
+text-transform: capitalize;
+color: #D7D7D7;
+margin-top: 30px;
+}
+.section2-inf{
+    margin-top: 115px;
+}
+.five-cards{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    object-fit: cover;
+}
+.section3{
+    margin-top: 60px;
+}
+.about-h1-sec3{
+    font-family: Onest;
+font-weight: 400;
+font-style: Regular;
+font-size: 48px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.about-p-sec3{
+    font-family: Onest;
+font-weight: 300;
+font-style: Light;
+font-size: 22px;
+color: #929292;
+margin-top: 30px;
+}
+.sec3-three-cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+.img-experience{
+     position: relative;
+}
+.card-title-one{
+    position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 48px;
+text-transform: capitalize;
+color: #929292;
+}
+.fiveteen-programmers-img{
+    position: relative;
+}
+.card-title-two{
+       position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 48px;
+text-transform: capitalize;
+color: #929292;
+}
+.five-hundred-projects{
+     position: relative;
+     margin-top: 17px;
+}
+.bg-img-portfolio{
+    background-image: url(./photos/portfolio-bg.svg);
+    height: 1220px;
+    margin-top: 90px;
+     background-repeat: no-repeat;
+}
+.sec4-h1-portfolio{
+    font-family: Onest;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+text-align: center;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.sec-div-buttons{
+    display: flex;
+    justify-content: center;
+gap: 30px;
+margin-top: 30px;
+}
+.sec4-advantages{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 18px;
+text-align: center;
+text-transform: capitalize;
+width: 150px;
+height: 50px;
+border-radius: 99px;
+border: 1px solid #D7D7D7;
+background-color: transparent;
+color: #D7D7D7;
+}
+.sec4-advantages-middle{
+       font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 18px;
+text-align: center;
+text-transform: capitalize;
+width: 190px;
+height: 50px;
+border-radius: 99px;
+border: 1px solid #D7D7D7;
+background-color: transparent;
+color: #D7D7D7;
+}
+.sec-4-main-inf{
+    padding-top: 115px;
+}
+.sec4-bg-card{
+    width: 493px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #16161680;
+}
+.sec4-card-inf{
+    display: flex;
+    justify-content: center;
+    padding-top: 224px;
+    gap: 26px;
+}
+.sec4-h1-card{
+    font-family: Onest;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.sec4-p-card{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 12px;
+color: #D7D7D7;
+}
+.sec4-btn-card{
+    width: 122px;
+    height: 38px;
+    border-radius: 99px;
+    background-color: #D7D7D7;
+    font-family: Onest;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+text-transform: capitalize;
+border: none;
+margin-top: 20px;
+}
+.sec4-portfolio-cards{
+    display: flex;
+    gap: 20px;
+}
+.sec4-first-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec4-second-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec4-third-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec4-portfolio-cards{
+    margin-top: 170px;
+}
+.contact-us-bg{
+    background-image: url(./photos/contact-bg.svg);
+    height: 1170px; 
+    background-repeat: no-repeat;
+}
+.sec4-h1{
+    font-family: Onest;
+font-weight: 350;
+font-style: Regular;
+font-size: 18px;
+text-align: center;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.sec4-p{
+    font-family: Onest;
+font-weight: 350;
+font-style: Regular;
+font-size: 22px;
+text-align: center;
+text-transform: capitalize;
+color: #D7D7D7;
+margin-top: 30px;
+}
+.sec4-inf{
+    padding-top: 115px;
+}
+.sec4-c-data{
+    font-family: Onest;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.contact-data{
+    width: 365px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #161616;
+    color: #929292;
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+padding-left: 20px;
+border: none;
+outline: none;
+}
+.sec4-two-inputs-below {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.sec4-two-inputs-top{
+    display: flex;
+    gap: 20px;
+}
+.sec4-divs{
+    margin-top: 20px;
+}
+.sec4-message-h1{
+       font-family: Onest;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.sec4-message-input {
+  margin-top: 20px;
+}
+
+.sec4-main-message {
+  position: relative;
+  display: inline-block;
+}
+
+.your-message {
+  width: 750px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #161616;
+  font-family: Onest;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #929292;
+  padding: 20px;
+  padding-right: 220px; /* отступ справа под кнопку */
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding-bottom: 120px;
+}
+
+.send-your-message {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  height: 45px;
+  padding: 0 25px;
+  border-radius: 26px;
+  background-color: #d7d7d7;
+  color: #161616;
+  font-family: Onest;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-div-all-inputs-sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 138px;
+}
+footer{
+    height: 475px;
+    background-color: #161616;
+}
+.footer-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.footer-ul-li{
+    color: #D7D7D7;
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+}
+.page-sects-h1{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 24px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.cont-footer-h1{
+       font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 24px;
+text-transform: capitalize;
+color: #D7D7D7;
+margin-top: -30px;
+padding-bottom: 30px;
+}
+.inf-in-footer{
+    display: flex;
+    gap: 165px;
+    margin-top: 125px;
+}
+.email-footer{
+    display: flex;
+    gap: 100px;
+}
+.place-1{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.inf-1{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+color: #929292;
+}
+.phone-footer{
+    display: flex;
+    gap: 8px;
+}
+.place-2{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+color: #D7D7D7;
+}
+.inf-2{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+color: #929292;
+}
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.footer-icons-messangers{
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.social-media{
+    width: 60px;
+    height: 60px;
+}
+.footer-flex{
+    display: flex;
+}
+.footer-logo{
+    display: flex;
+    margin-top: 158px;
+    margin-left: 196px;
+}
+.footer-logo-inf{
+    width: 593px;
+    height: 160px;
+}
+.author{
+    width: 100%;
+    height: 120px;
+    background-color: #121212;
+    margin-top: 100px;
+}
+.author-p{
+    font-family: Onest;
+font-weight: 300;
+font-style: Regular;
+font-size: 20px;
+text-transform: capitalize;
+color: #929292;
+padding-top: 47px;
+}
+.underline{
+text-decoration: underline;
+text-decoration-style: solid;
+}
