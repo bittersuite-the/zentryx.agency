@@ -6,6 +6,9 @@
 body{
     background-color: #161616;
 }
+html {
+    scroll-behavior: smooth;
+}
 .bg-num1{
     background-image: url(./photos/background-image-num1.svg);
     background-position: center center; 
@@ -66,6 +69,12 @@ font-style: Light;
 font-size: 14px;
 color: #D7D7D7;
 background-color: #161616;
+}
+.main-button-section1{
+    transition: all 0.8s ease;
+}
+.main-button-section1:hover{
+     background-color: #D7D7D733;
 }
 .main-btn-div{
     display: flex;
@@ -530,4 +539,34 @@ padding-top: 47px;
 .underline{
 text-decoration: underline;
 text-decoration-style: solid;
+}
+.section2-h1-about-us {
+  font-size: 18px;
+  transition: font-size 1s ease; /* плавность в обе стороны */
+}
+
+.section2-h1-about-us:hover {
+  font-size: 22px;
+}
+
+.sec4-h1-portfolio{
+    font-size: 18px;
+  transition: font-size 1s ease; /* плавность в обе стороны */
+}
+.sec4-h1-portfolio:hover{
+    font-size: 22px;
+}
+.sec4-h1{
+     font-size: 18px;
+  transition: font-size 1s ease; /* плавность в обе стороны */
+}
+.sec4-h1:hover{
+    font-size: 22px;
+}
+.sec4-btn-card{
+    transition: all 0.8s ease;
+}
+.sec4-btn-card:hover{
+    background-color: #161616;
+    color: #D7D7D7;
 }
